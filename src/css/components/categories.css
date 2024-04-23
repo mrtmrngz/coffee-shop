@@ -1,0 +1,24 @@
+.categories .category-item {
+    text-align: center;
+}
+
+.categories .category-item .category-image {
+    background-color: #f4f4f4;
+    border-radius: 100%;
+}
+
+.categories .category-item .category-image img {
+    width: 100%;
+    transition: .3s ease all;
+    padding: 30px;
+}
+
+.categories .category-item:hover .category-image img {
+    transform: scale(1.2);
+}
+
+.categories .category-item .category-name {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5px;
+}

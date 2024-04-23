@@ -1,0 +1,16 @@
+/*? Base  */
+@import url(./base.css);
+
+/*? Components  */
+@import url(./components/search.css);
+@import url(./components/main-slider.css);
+@import url(./components/categories.css);
+@import url(./components/product-item.css);
+@import url(./components/quality-info.css);
+@import url(./components/blog.css);
+
+/*? Layout  */
+@import url(./layout/header.css);
+
+/*? Pages  */
+@import url(./pages/home.css);
