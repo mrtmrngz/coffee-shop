@@ -98,6 +98,7 @@
 .products-wrapper .product-item .prices .new-price {
     color: var(--red-color);
     font-size: 16px;
+    font-weight: 600;
 }
 
 .products-wrapper .product-item .add-to-cart {
