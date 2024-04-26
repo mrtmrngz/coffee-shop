@@ -79,6 +79,18 @@
 
 /*! Our Shop END  */
 
+/*! Image Gallery START  */
+
+.image-gallery {
+    margin-top: 50px;
+}
+
+.image-gallery .gallery-wrapper {
+    margin-top: 30px;
+}
+
+/*! Image Gallery END  */
+
 
 
 /*! Responsive  */
