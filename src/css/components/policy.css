@@ -1,0 +1,37 @@
+.policy-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.policy-wrapper .policy-item {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.policy-wrapper .policy-item i {
+    font-size: 50px;
+}
+
+.policy-wrapper .policy-item .policy-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.policy-wrapper .policy-item .policy-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.policy-wrapper .policy-item .policy-info .policy-header{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.policy-wrapper .policy-item .policy-info .policy-text{
+    font-size: 12px;
+}
