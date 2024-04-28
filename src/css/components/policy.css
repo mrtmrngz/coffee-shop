@@ -1,6 +1,6 @@
 .policy-wrapper {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
     justify-content: space-between;
 }
 
@@ -21,12 +21,6 @@
     gap: 5px;
 }
 
-.policy-wrapper .policy-item .policy-info {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
 .policy-wrapper .policy-item .policy-info .policy-header{
     font-size: 18px;
     text-transform: capitalize;
@@ -34,4 +28,25 @@
 
 .policy-wrapper .policy-item .policy-info .policy-text{
     font-size: 12px;
+}
+
+
+/*! Responsive  */
+
+@media screen and (max-width: 1065px) {
+    .policy-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: space-between;
+        row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .policy-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+        align-items: center;
+    }
 }

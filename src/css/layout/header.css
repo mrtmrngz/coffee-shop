@@ -279,4 +279,26 @@
     }
 }
 
+@media screen and (max-width: 366px) {
+    .navbar .header-mobile button {
+        font-size: 16px;
+    }
+
+    .navbar .header-left .logo {
+        font-size: 16px;
+    }
+
+    .navbar .header-right .header-right--links {
+        column-gap: 4px;
+    }
+
+    .header-right i {
+        font-size: 12px;
+    }
+
+    .header-right .header-right--links .header-account-link i {
+        font-size: 14px;
+    }
+}
+
 /*? Responsive END  */
