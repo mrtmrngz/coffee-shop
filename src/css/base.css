@@ -21,6 +21,7 @@
 
 body {
     font-family: "Outfit", sans-serif;
+    /* overflow-x: hidden; */
 }
 
 ol,ul {
@@ -124,6 +125,10 @@ input[type="search"]::-webkit-search-results-decoration {
     text-align: center;
     font-weight: 400;
     color: var(--gray-color);
+}
+
+.required {
+    color: var(--red-color);
 }
 
 

@@ -1,0 +1,15 @@
+.shop-page-products {
+    margin-top: 50px;
+}
+
+.shop-page-products .products-wrapper {
+    margin-top: 30px;
+}
+
+.shop-page-products .products-wrapper .products-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 210px), 1fr));
+    gap: 29px;
+    /* grid-template-columns: repeat(4, 1fr); */
+    position: relative;
+}

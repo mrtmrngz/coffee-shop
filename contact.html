@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!--! CSS  -->
     <link rel="stylesheet" href="./src/css/main.css">
-    <title>CoffeeHub | Home</title>
+    <title>CoffeeHub | Contact</title>
 </head>
 <body>
     
@@ -34,7 +34,7 @@
                     <nav class="main-nav">
                         <ul class="menu-list">
                             <li class="menu-item">
-                                <a href="./index.html" class="menu-item--link active">Home</a>
+                                <a href="./index.html" class="menu-item--link">Home</a>
                             </li>
                             <li class="menu-item">
                                 <a href="./shop.html" class="menu-item--link">
@@ -69,7 +69,7 @@
                                 <a href="./blog.html" class="menu-item--link">Blog</a>
                             </li>
                             <li class="menu-item">
-                                <a href="./contact.html" class="menu-item--link">Contact</a>
+                                <a href="./contact.html" class="menu-item--link active">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -185,129 +185,117 @@
     <!--? Modal Search END  -->
 
     <main>
-        <!--? Slider START  -->
-        <section class="main-slider">
-            <div class="slider-elements">
-                <div class="slider-item display-slide">
-                    <div class="slider-image">
-                        <img src="./src/img/slider/1.jpg" alt="coffee">
-                    </div>
-                    <div class="container">
-                        <div class="slider-content">
-                            <p class="slider-text">Special offer for coffee day,</p>
-                            <h2 class="slider-header">discounts up to 70%</h2>
-                            <a href="#" class="btn btn-lg btn-primary slider-btn">Show All</a>
-                        </div>
-                    </div>
+
+        <!--? Contact START  -->
+        <div class="contact">
+            <div class="contact-top">
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33717.91040855017!2d26.554944131598255!3d41.67150358405947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b32f77a26304e1%3A0xa0cfc0ca431c30bc!2sEdirne%2C%20Edirne%20Merkez%2FEdirne!5e0!3m2!1str!2str!4v1714570551886!5m2!1str!2str" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="slider-item">
-                    <div class="slider-image">
-                        <img src="./src/img/slider/2.jpg" alt="coffee">
-                    </div>
-                    <div class="container">
-                        <div class="slider-content">
-                            <p class="slider-text">Special offer for coffee day,</p>
-                            <h2 class="slider-header">discounts up to 70%</h2>
-                            <a href="#" class="btn btn-lg btn-primary slider-btn">Show All</a>
+            </div>
+
+            <div class="contact-bottom">
+                <div class="container">
+                    <div class="contact-bottom-wrapper">
+                        
+                        <div class="contact-titles">
+                            <h4 class="contact-hours-text">Customer service can be reached between 09:00am and 09:00pm</h4>
+                            <h2 class="contact-title">Contact With Us</h2>
+                            <p class="contact-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente facilis quam provident recusandae nobis doloribus debitis magni perspiciatis tenetur hic iste reprehenderit, nam numquam voluptas.</p>
                         </div>
-                    </div>
-                </div>
-                <div class="slider-item">
-                    <div class="slider-image">
-                        <img src="./src/img/slider/3.jpg" alt="coffee">
-                    </div>
-                    <div class="container">
-                        <div class="slider-content">
-                            <p class="slider-text">Special offer for coffee day,</p>
-                            <h2 class="slider-header">discounts up to 70%</h2>
-                            <a href="#" class="btn btn-lg btn-primary slider-btn">Show All</a>
+
+                        <div class="contact-elements">
+                            <form class="contact-form">
+                                <div>
+                                    <label for="name">Your Name <span class="required">*</span></label>
+                                    <input type="text" id="name">
+                                </div>
+                                <div>
+                                    <label for="email">Your Email <span class="required">*</span></label>
+                                    <input type="email" id="email">
+                                </div>
+                                <div>
+                                    <label for="subject">Subject<span class="required">*</span></label>
+                                    <input type="text" id="subject">
+                                </div>
+                                <div>
+                                    <label for="message">Your Messages <span class="required">*</span></label>
+                                    <textarea name="author" id="author" type="text" rows="5"></textarea>
+                                </div>
+                                <button class="btn btn-primary">Send Message</button>
+                            </form>
+
+                            <div class="contact-info">
+                                <div class="contact-info-item">
+                                    <strong>Coffee Hub</strong>
+                                    <p class="contact-street">Coffee Hub World - 1234 22th Street, Office 123/B World Mall World, WD 12345</p>
+                                    <a href="tel:123 456 78 90">Phone: (+90) 123 456 78 90</a>
+                                    <a href="mailto:mert123marangoz@gmail.com">Email: mert123marangoz@gmail.com</a>
+                                </div>
+                                <div class="contact-info-item">
+                                    <strong>Opening Hours</strong>
+                                    <p>Every Days</p>
+                                    <p>Customer Service: 09:00am - 09:00pm</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <!--? Contact END  -->
 
-            <div class="slider-buttons">
-                <button class="main-slider-prev">
-                    <i class="bi bi-arrow-left"></i>
-                </button>
-                <button class="main-slider-next">
-                    <i class="bi bi-arrow-right"></i>
-                </button>
-            </div>
-
-            <div class="slider-dots">
-                <button class="slider-dot active">
-                    <span></span>
-                </button>
-                <button class="slider-dot">
-                    <span></span>
-                </button>
-                <button class="slider-dot">
-                    <span></span>
-                </button>
-            </div>
-        </section>
-        <!--? Slider END  -->
-
-        <!--? Categories START  -->
-        <section class="categories">
-            <h2 class="section-title">Categories</h2>
+        <!--? Image Gallery START  -->
+        <section class="image-gallery">
+            <h2 class="section-title">Gallery From Our Shop</h2>
             <div class="container">
-                <div class="categories-wrapper">
-                    <ul class="categories-list">
-                        <li class="category-item">
-                            <a href="./shop.html" class="category-link">
-                                <div class="category-image">
-                                    <img src="./src/img/categories/americano.png" alt="americano">
-                                </div>
-                                <h4 class="category-name">Americano</h4>
-                            </a>
-                        </li>
-                        <li class="category-item">
-                            <a href="./shop.html" class="category-link">
-                                <div class="category-image">
-                                    <img src="./src/img/categories/arabica.png" alt="arabica">
-                                </div>
-                                <h4 class="category-name">Arabica</h4>
-                            </a>
-                        </li>
-                        <li class="category-item">
-                            <a href="./shop.html" class="category-link">
-                                <div class="category-image">
-                                    <img src="./src/img/categories/espresso.png" alt="espresso">
-                                </div>
-                                <h4 class="category-name">Espresso</h4>
-                            </a>
-                        </li>
-                        <li class="category-item">
-                            <a href="./shop.html" class="category-link">
-                                <div class="category-image">
-                                    <img src="./src/img/categories/iced-coffee.png" alt="iced coffee">
-                                </div>
-                                <h4 class="category-name">Iced Coffee</h4>
-                            </a>
-                        </li>
-                        <li class="category-item">
-                            <a href="./shop.html" class="category-link">
-                                <div class="category-image">
-                                    <img src="./src/img/categories/latte.png" alt="latte">
-                                </div>
-                                <h4 class="category-name">Latte</h4>
-                            </a>
-                        </li>
-                        <li class="category-item">
-                            <a href="./shop.html" class="category-link">
-                                <div class="category-image">
-                                    <img src="./src/img/categories/turkish-coffee.png" alt="turkish coffee">
-                                </div>
-                                <h4 class="category-name">Turkish Coffee</h4>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="gallery-wrapper">
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/1.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/2.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/3.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/4.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/5.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/6.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/7.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/8.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/9.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/10.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/11.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/12.jpg" alt="">
+                    </button>
                 </div>
             </div>
+            <div class="full-image">
+                <img src="./src/img/img-gallery/1.jpg" alt="coffee">
+                <button class="close-gallery-btn">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
         </section>
-        <!--? Categories END  -->
+        <!--? Image Gallery END  -->
 
         <!--? Products START  -->
         <section class="home-page-products">
@@ -425,26 +413,6 @@
             </div>
         </section>
         <!--? Products END  -->
-
-        <!--? Shop Info START  -->
-        <section class="quality-info">
-            <h2 class="section-title">Product Qualities</h2>
-            <div class="quality-info-wrapper">
-                <div class="container">
-                    <div class="quality-info-row">
-                        <div class="quality-info-col-1">
-                            <h3 class="quality-info-title">Our products are always high quality.</h3>
-                            <p class="quality-info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, soluta itaque. Qui consectetur, fugit possimus ex est delectus nemo facere quia blanditiis minima quis ducimus.</p>
-                            <a href="./shop.html" class="btn btn-primary btn-lg">Show More</a>
-                        </div>
-                        <div class="quality-info-col-2">
-                            <img src="./src/img/info/coffe-menu.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--? Shop Info END  -->
 
         <!--? Blog START  -->
         <section class="blog">
@@ -628,81 +596,6 @@
             </div>
         </section>
         <!--? Best Selling END  -->
-
-        <!--? Our Shop START  -->
-        <section class="our-shop">
-            <h2 class="section-title">Our Shop</h2>
-            <div class="our-shop-row">
-                <div class="our-shop-column">
-                    <div class="col-1">
-                        <img src="./src/img/info/1.jpg" alt="shop">
-                    </div>
-                </div>
-                <div class="our-shop-column">
-                    <div class="col-2">
-                        <h3 class="our-shop-header">If you wish, you can come to our shop</h3>
-                        <p class="our-shop-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui odio placeat hic unde omnis suscipit doloribus cum labore id rem, nemo molestiae nostrum voluptas illo asperiores.</p>
-                        <a href="./contact.html" class="btn btn-lg">
-                            Contact
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--? Our Shop END  -->
-
-        <!--? Image Gallery START  -->
-        <section class="image-gallery">
-            <h2 class="section-title">Gallery From Our Shop</h2>
-            <div class="container">
-                <div class="gallery-wrapper">
-                    <button class="img-open-btn">
-                        <img src="./src/img/img-gallery/1.jpg" alt="">
-                    </button>
-                    <button class="img-open-btn">
-                        <img src="./src/img/img-gallery/2.jpg" alt="">
-                    </button>
-                    <button class="img-open-btn">
-                        <img src="./src/img/img-gallery/3.jpg" alt="">
-                    </button>
-                    <button class="img-open-btn">
-                        <img src="./src/img/img-gallery/4.jpg" alt="">
-                    </button>
-                    <button class="img-open-btn">
-                        <img src="./src/img/img-gallery/5.jpg" alt="">
-                    </button>
-                    <button class="img-open-btn">
-                        <img src="./src/img/img-gallery/6.jpg" alt="">
-                    </button>
-                    <button class="img-open-btn">
-                        <img src="./src/img/img-gallery/7.jpg" alt="">
-                    </button>
-                    <button class="img-open-btn">
-                        <img src="./src/img/img-gallery/8.jpg" alt="">
-                    </button>
-                    <button class="img-open-btn">
-                        <img src="./src/img/img-gallery/9.jpg" alt="">
-                    </button>
-                    <button class="img-open-btn">
-                        <img src="./src/img/img-gallery/10.jpg" alt="">
-                    </button>
-                    <button class="img-open-btn">
-                        <img src="./src/img/img-gallery/11.jpg" alt="">
-                    </button>
-                    <button class="img-open-btn">
-                        <img src="./src/img/img-gallery/12.jpg" alt="">
-                    </button>
-                </div>
-            </div>
-            <div class="full-image">
-                <img src="./src/img/img-gallery/1.jpg" alt="coffee">
-                <button class="close-gallery-btn">
-                    <i class="bi bi-x-lg"></i>
-                </button>
-            </div>
-        </section>
-        <!--? Image Gallery END  -->
 
         <!--? Policy START  -->
         <section class="policy">
