@@ -2,6 +2,7 @@
     border: 1px solid var(--border-color);
     border-radius: 15px;
     background-color: #f4f4f4;
+    cursor: pointer;
     transition: .3s ease all;
 }
 
@@ -16,6 +17,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    z-index: -1;
 }
 
 .products-wrapper .product-item .product-image {
@@ -99,6 +101,10 @@
     color: var(--red-color);
     font-size: 16px;
     font-weight: 600;
+}
+
+.products-wrapper .product-item .product-button-wrapper {
+    padding: 0 15px 15px 15px;
 }
 
 .products-wrapper .product-item .add-to-cart {
