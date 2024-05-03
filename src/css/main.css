@@ -11,6 +11,7 @@
 @import url(./components/our-shop.css);
 @import url(./components/image-gallery.css);
 @import url(./components/policy.css);
+@import url(./components/tab-panels.css);
 
 /*? Layout  */
 @import url(./layout/header.css);
@@ -23,3 +24,4 @@
 @import url(./pages/contact-page.css);
 @import url(./pages/cart.css);
 @import url(./pages/single-blog.css);
+@import url(./pages/single-product.css);

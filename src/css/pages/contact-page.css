@@ -64,7 +64,6 @@
 .contact .contact-bottom .contact-elements .contact-form > div input,
 .contact .contact-bottom .contact-elements .contact-form > div textarea {
     padding: 10px 10px 10px 15px;
-    border: 1px solid var(--border-color);
     outline: none;
 }
 

@@ -1,0 +1,26 @@
+@import url(../components/single-product/breadcrumb.css);
+@import url(../components/single-product/product-gallery.css);
+@import url(../components/single-product/product-info.css);
+
+
+.single-product {
+    margin-top: 50px;
+}
+
+.single-content {
+    margin-top: 30px;
+}
+
+.single-content .single-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+
+@media screen and (max-width:580px) {
+    .single-content .single-content-wrapper {
+        flex-direction: column;
+    }
+}
+

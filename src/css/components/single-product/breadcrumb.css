@@ -1,0 +1,26 @@
+.single-product .breadcrumb .breadcrumb-list {
+    display: flex;
+    font-size: 14px;
+}
+
+.single-product .breadcrumb .breadcrumb-list li:not(:last-child)::after {
+    content: "/";
+    color: #000;
+    margin: 0 10px;
+}
+
+.single-product .breadcrumb .breadcrumb-list li a {
+    transition: .3s ease-in all;
+}
+
+.single-product .breadcrumb .breadcrumb-list li a:hover {
+    color: var(--primary-color);
+}
+
+.single-product .breadcrumb .breadcrumb-list li:not(:last-child) a {
+    text-decoration: underline;
+}
+
+.single-product .breadcrumb .breadcrumb-list li:last-child a {
+    color: var(--primary-color);
+}
