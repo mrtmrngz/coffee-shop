@@ -121,6 +121,7 @@
     top: 50%;
     transform: translateY(-50%);
     transition: .3s ease all;
+    z-index: 50;
 }
 
 .home-page-products .home-page-slider-navigation button:hover {

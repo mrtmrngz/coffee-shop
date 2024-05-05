@@ -28,13 +28,13 @@
 }
 
 .home-page-products .products-wrapper .products-list {
-    display: flex;
-    align-items: center;
-    gap: 29px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* gap: 29px; */
 }
 
 .home-page-products .products-wrapper .products-list .product-item {
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
 }
 
 /*! Products END  */

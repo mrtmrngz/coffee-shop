@@ -175,6 +175,10 @@ footer .copyrights .copyrights-wrapper > a{
     overflow: hidden;
 }
 
+footer .copyrights .copyrights-wrapper > a img {
+    width: 100%;
+}
+
 footer .copyrights .copyrights-wrapper .copyright-menu {
     margin-left: auto;
 }

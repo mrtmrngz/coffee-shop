@@ -9,8 +9,13 @@
     justify-content: center;
     visibility: hidden;
     opacity: 0;
-    z-index: 2;
+    z-index: 99;
     transition: all .3s ease;
+}
+
+.modal-search.show {
+    visibility: visible;
+    opacity: 1;
 }
 
 .modal-search::after {
@@ -25,7 +30,7 @@
 }
 
 .modal-search .modal-wrapper {
-    max-width: 850px;
+    max-width: 750px;
     width: 100%;
     background-color: #fff;
     z-index: 999;

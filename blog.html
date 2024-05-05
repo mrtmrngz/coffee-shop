@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="./src/img/favicon.svg" type="image/x-icon">
     <!--! Boostrap Icons  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--! Swiper Js CSS  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <!--! CSS  -->
     <link rel="stylesheet" href="./src/css/main.css">
     <title>CoffeeHub | Blog</title>
@@ -18,7 +20,7 @@
             <div class="header-wrapper">
 
                 <div class="header-mobile">
-                    <button class="navbar-responsive">
+                    <button class="navbar-responsive-open">
                         <i class="bi bi-list"></i>
                     </button>
                 </div>
@@ -83,7 +85,7 @@
                         <a href="./account.html" class="header-right--link header-account-link">
                             <i class="bi bi-person"></i>
                         </a>
-                        <button class="header-right--link search-button">
+                        <button class="header-right--link search-button search-bar-open-btn">
                             <i class="bi bi-search"></i>
                         </button>
                         <div class="header-right--link header-cart">
@@ -330,9 +332,9 @@
         <section class="home-page-products">
             <h2 class="section-title">Best Sellings</h2>
             <div class="container">
-                <div class="products-wrapper home-page-product-slider-2">
-                    <ul class="products-list">
-                        <li class="product-item">
+                <div class="products-wrapper swiper home-page-product-slider-2">
+                    <ul class="products-list swiper-wrapper">
+                        <li class="product-item swiper-slide">
                             <a href="#" class="product-link">
                                 <div class="product-image">
                                     <img src="./src/img/products/product1/1.jpg" alt="coffee">
@@ -353,12 +355,15 @@
                                         <span class="old-price">$34.99</span>
                                         <span class="new-price">$29.99</span>
                                     </div>
-                                    <button class="btn btn-primary add-to-cart">Add To Cart</button>
+                                    <!-- <button class="btn btn-primary add-to-cart">Add To Cart</button> -->
                                 </div>
                             </a>
+                            <div class="product-button-wrapper">
+                                <button class="btn btn-primary add-to-cart">Add To Cart</button>
+                            </div>
                         </li>
 
-                        <li class="product-item">
+                        <li class="product-item swiper-slide">
                             <a href="#" class="product-link">
                                 <div class="product-image">
                                     <img src="./src/img/products/product2/1.jpg" alt="coffee">
@@ -374,16 +379,19 @@
                                             <i class="bi bi-heart"></i>
                                         </div>
                                     </div>
-                                    <h3 class="product-name">Cameron's Coffee Flavored Vanilla Hazelnut Ground Coffee</h3>
+                                    <h3 class="product-name">McCafe Premium Roast Medium Coffee</h3>
                                     <div class="prices">
                                         <span class="old-price">$34.99</span>
                                         <span class="new-price">$29.99</span>
                                     </div>
-                                    <button class="btn btn-primary add-to-cart">Add To Cart</button>
+                                    <!-- <button class="btn btn-primary add-to-cart">Add To Cart</button> -->
                                 </div>
                             </a>
+                            <div class="product-button-wrapper">
+                                <button class="btn btn-primary add-to-cart">Add To Cart</button>
+                            </div>
                         </li>
-                        <li class="product-item">
+                        <li class="product-item swiper-slide">
                             <a href="#" class="product-link">
                                 <div class="product-image">
                                     <img src="./src/img/products/product3/1.jpg" alt="coffee">
@@ -399,23 +407,26 @@
                                             <i class="bi bi-heart"></i>
                                         </div>
                                     </div>
-                                    <h3 class="product-name">CDM Coffee & Chicory Regular Grind Ground Coffee, 13 Oz.</h3>
+                                    <h3 class="product-name">McCafe Premium Roast Medium Coffee</h3>
                                     <div class="prices">
                                         <span class="old-price">$34.99</span>
                                         <span class="new-price">$29.99</span>
                                     </div>
-                                    <button class="btn btn-primary add-to-cart">Add To Cart</button>
+                                    <!-- <button class="btn btn-primary add-to-cart">Add To Cart</button> -->
                                 </div>
                             </a>
+                            <div class="product-button-wrapper">
+                                <button class="btn btn-primary add-to-cart">Add To Cart</button>
+                            </div>
                         </li>
-                        <li class="product-item">
+                        <li class="product-item swiper-slide">
                             <a href="#" class="product-link">
                                 <div class="product-image">
                                     <img src="./src/img/products/product4/1.jpg" alt="coffee">
                                 </div>
                                 <div class="product-info">
                                     <div class="stock-reviews">
-                                        <p class="stock no-stock">No Stock</p>
+                                        <p class="stock yes-stock">Stock</p>
                                         <div class="reviews">
                                             <i class="bi bi-heart-fill"></i>
                                             <i class="bi bi-heart-fill"></i>
@@ -424,21 +435,108 @@
                                             <i class="bi bi-heart"></i>
                                         </div>
                                     </div>
-                                    <h3 class="product-name">NORDIA Barista No:3 Bean Coffee</h3>
+                                    <h3 class="product-name">McCafe Premium Roast Medium Coffee</h3>
                                     <div class="prices">
                                         <span class="old-price">$34.99</span>
                                         <span class="new-price">$29.99</span>
                                     </div>
-                                    <button class="btn btn-primary add-to-cart">Add To Cart</button>
+                                    <!-- <button class="btn btn-primary add-to-cart">Add To Cart</button> -->
                                 </div>
                             </a>
+                            <div class="product-button-wrapper">
+                                <button class="btn btn-primary add-to-cart">Add To Cart</button>
+                            </div>
+                        </li>
+                        <li class="product-item swiper-slide">
+                            <a href="#" class="product-link">
+                                <div class="product-image">
+                                    <img src="./src/img/products/product5/1.jpg" alt="coffee">
+                                </div>
+                                <div class="product-info">
+                                    <div class="stock-reviews">
+                                        <p class="stock yes-stock">Stock</p>
+                                        <div class="reviews">
+                                            <i class="bi bi-heart-fill"></i>
+                                            <i class="bi bi-heart-fill"></i>
+                                            <i class="bi bi-heart-fill"></i>
+                                            <i class="bi bi-heart-half"></i>
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="product-name">McCafe Premium Roast Medium Coffee</h3>
+                                    <div class="prices">
+                                        <span class="old-price">$34.99</span>
+                                        <span class="new-price">$29.99</span>
+                                    </div>
+                                    <!-- <button class="btn btn-primary add-to-cart">Add To Cart</button> -->
+                                </div>
+                            </a>
+                            <div class="product-button-wrapper">
+                                <button class="btn btn-primary add-to-cart">Add To Cart</button>
+                            </div>
+                        </li>
+                        <li class="product-item swiper-slide">
+                            <a href="#" class="product-link">
+                                <div class="product-image">
+                                    <img src="./src/img/products/product6/1.jpg" alt="coffee">
+                                </div>
+                                <div class="product-info">
+                                    <div class="stock-reviews">
+                                        <p class="stock yes-stock">Stock</p>
+                                        <div class="reviews">
+                                            <i class="bi bi-heart-fill"></i>
+                                            <i class="bi bi-heart-fill"></i>
+                                            <i class="bi bi-heart-fill"></i>
+                                            <i class="bi bi-heart-half"></i>
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="product-name">McCafe Premium Roast Medium Coffee</h3>
+                                    <div class="prices">
+                                        <span class="old-price">$34.99</span>
+                                        <span class="new-price">$29.99</span>
+                                    </div>
+                                    <!-- <button class="btn btn-primary add-to-cart">Add To Cart</button> -->
+                                </div>
+                            </a>
+                            <div class="product-button-wrapper">
+                                <button class="btn btn-primary add-to-cart">Add To Cart</button>
+                            </div>
+                        </li>
+                        <li class="product-item swiper-slide">
+                            <a href="#" class="product-link">
+                                <div class="product-image">
+                                    <img src="./src/img/products/product7/1.jpg" alt="coffee">
+                                </div>
+                                <div class="product-info">
+                                    <div class="stock-reviews">
+                                        <p class="stock yes-stock">Stock</p>
+                                        <div class="reviews">
+                                            <i class="bi bi-heart-fill"></i>
+                                            <i class="bi bi-heart-fill"></i>
+                                            <i class="bi bi-heart-fill"></i>
+                                            <i class="bi bi-heart-half"></i>
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="product-name">McCafe Premium Roast Medium Coffee</h3>
+                                    <div class="prices">
+                                        <span class="old-price">$34.99</span>
+                                        <span class="new-price">$29.99</span>
+                                    </div>
+                                    <!-- <button class="btn btn-primary add-to-cart">Add To Cart</button> -->
+                                </div>
+                            </a>
+                            <div class="product-button-wrapper">
+                                <button class="btn btn-primary add-to-cart">Add To Cart</button>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="home-page-slider-navigation">
-                <button class="prev"><i class="bi bi-chevron-left"></i></button>
-                <button class="next"><i class="bi bi-chevron-right"></i></button>
+                <button class="prev best-selling-prev-btn"><i class="bi bi-chevron-left"></i></button>
+                <button class="next best-selling-next-btn"><i class="bi bi-chevron-right"></i></button>
             </div>
         </section>
         <!--? Best Selling END  -->
@@ -678,5 +776,8 @@
     </footer>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./src/js/swiper.js"></script>
+    <script src="./src/js/app.js" type="module"></script>
 </body>
 </html>

@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "name": "McCafe Premium Roast Medium Coffee K-Cup Pods",
+        "price": {
+            "oldPrice": 34.29,
+            "newPrice": 29.98
+        },
+        "images": {
+            "img1": "./src/img/products/product1/1.jpg",
+            "img2": "./src/img/products/product1/2.jpg",
+            "img3": "./src/img/products/product1/3.jpg"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Cameron's Coffee Flavored Vanilla Hazelnut Ground Coffee, Light Roast, 32 oz, Naturally Caffeinated",
+        "price": {
+            "oldPrice": 28.92,
+            "newPrice": 24.51
+        },
+        "images": {
+            "img1": "./src/img/products/product2/1.jpg",
+            "img2": "./src/img/products/product2/2.jpg",
+            "img3": "./src/img/products/product2/3.jpg"
+        }
+    },
+    {
+        "id": 3,
+        "name": "CDM Coffee & Chicory Regular Grind Ground Coffee, 13 Oz.",
+        "price": {
+            "oldPrice": 25.52,
+            "newPrice": 20.25
+        },
+        "images": {
+            "img1": "./src/img/products/product3/1.jpg",
+            "img2": "./src/img/products/product3/2.jpg",
+            "img3": "./src/img/products/product3/3.jpg"
+        }
+    },
+    {
+        "id": 4,
+        "name": "NORDIA Barista No:3 Whole Bean Coffee",
+        "price": {
+            "oldPrice": 34.29,
+            "newPrice": 29.98
+        },
+        "images": {
+            "img1": "./src/img/products/product4/1.jpg",
+            "img2": "./src/img/products/product4/2.jpg",
+            "img3": "./src/img/products/product4/3.jpg"
+        }
+    },
+    {
+        "id": 5,
+        "name": "LavAzza Qualita Rossa Whole Bean Coffee",
+        "price": {
+            "oldPrice": 34.29,
+            "newPrice": 29.98
+        },
+        "images": {
+            "img1": "./src/img/products/product5/1.jpg",
+            "img2": "./src/img/products/product5/2.jpg",
+            "img3": "./src/img/products/product5/3.jpg"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Starbucks Iced Coffee Unsweetened Medium Roast, 48 fl oz",
+        "price": {
+            "oldPrice": 8.29,
+            "newPrice": 6.24
+        },
+        "images": {
+            "img1": "./src/img/products/product6/1.jpg",
+            "img2": "./src/img/products/product6/2.jpg",
+            "img3": "./src/img/products/product6/3.jpg"
+        }
+    },
+    {
+        "id": 7,
+        "name": "CoolBrew Vanilla Hot or Iced Coffee Concentrate, 16.9 fl oz. A Cold Brewed Coffee.",
+        "price": {
+            "oldPrice": 7.30,
+            "newPrice": 6.00
+        },
+        "images": {
+            "img1": "./src/img/products/product7/1.jpg",
+            "img2": "./src/img/products/product7/2.jpg",
+            "img3": "./src/img/products/product7/3.jpg"
+        }
+    }
+]

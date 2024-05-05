@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!--! CSS  -->
     <link rel="stylesheet" href="./src/css/main.css">
-    <title>CoffeeHub | Cart</title>
+    <title>CoffeeHub | Account</title>
 </head>
 <body>
     
@@ -80,14 +80,14 @@
 
                 <div class="header-right">
                     <div class="header-right--links">
-                        <a href="./account.html" class="header-right--link header-account-link">
+                        <a href="./account.html" class="header-right--link header-account-link active">
                             <i class="bi bi-person"></i>
                         </a>
                         <button class="header-right--link search-button search-bar-open-btn">
                             <i class="bi bi-search"></i>
                         </button>
-                        <div class="header-right--link header-cart active">
-                            <a href="./cart.html" class="header-cart-link ">
+                        <div class="header-right--link header-cart">
+                            <a href="./cart.html" class="header-cart-link">
                                 <i class="bi bi-cart"></i>
                                 <span class="cart-count">0</span>
                             </a>
@@ -185,211 +185,138 @@
     <!--? Modal Search END  -->
 
     <main>
-
-        <!--? Cart START  -->
-        <section class="cart-page">
+        
+        <!--? Account START  -->
+        <section class="account">
             <div class="container">
-                <div class="cart-page-wrapper">
-
-                    <form class="cart-form">
-                        <div class="free-progress-bar">
-                            <p class="progress-bar-title">
-                                Add <strong>$35.00</strong> to cart and get free shipping!
-                            </p>
-                            <div class="progress-bar">
-                                <div class="progress"></div>
+                <div class="account-wrapper">
+                    <div class="account-column">
+                        <h2 class="account-title">Login</h2>
+                        <form class="account-form">
+                            <div>
+                                <label for="email-login">Email Address <span class="required">*</span></label>
+                                <input type="email" id="email-login">
                             </div>
-                        </div>
-
-                        <div class="shop-table-wrapper">
-                            <table class="shop-table">
-                                <thead>
-                                    <th class="class-product-thumb">&nbsp;</th>
-                                    <th class="class-product-thumb">Product Image</th>
-                                    <th class="all-product-name">Product</th>
-                                    <th class="all-product-price">Price</th>
-                                    <th class="all-product-quantity">Quantity</th>
-                                    <th class="all-product-subtotal">Subtotal</th>
-                                </thead>
-                                <tbody class="cart-wrapper">
-                                    <tr class="cart-item">
-                                        <td></td>
-                                        <td class="cart-image">
-                                            <img src="./src/img/products/product1/1.jpg" alt="coffee">
-                                            <i class="bi bi-x delete-cart"></i>
-                                        </td>
-                                        <td class="product-name">McCafe Premium Roast Medium</td>
-                                        <td class="product-price">$32.00</td>
-                                        <td class="product-quantity">3</td>
-                                        <td class="product-quantity">$96.00</td>
-                                    </tr>
-
-                                    <tr class="cart-item">
-                                        <td></td>
-                                        <td class="cart-image">
-                                            <img src="./src/img/products/product2/1.jpg" alt="coffee">
-                                            <i class="bi bi-x delete-cart"></i>
-                                        </td>
-                                        <td class="product-name">Cameron's Coffee Flavored Vanilla Hazelnut Ground Coffee</td>
-                                        <td class="product-price">$32.00</td>
-                                        <td class="product-quantity">3</td>
-                                        <td class="product-quantity">$96.00</td>
-                                    </tr>
-
-                                    <tr class="cart-item">
-                                        <td></td>
-                                        <td class="cart-image">
-                                            <img src="./src/img/products/product2/1.jpg" alt="coffee">
-                                            <i class="bi bi-x delete-cart"></i>
-                                        </td>
-                                        <td class="product-name">Cameron's Coffee Flavored Vanilla Hazelnut Ground Coffee</td>
-                                        <td class="product-price">$32.00</td>
-                                        <td class="product-quantity">3</td>
-                                        <td class="product-quantity">$96.00</td>
-                                    </tr>
-                                    <tr class="cart-item">
-                                        <td></td>
-                                        <td class="cart-image">
-                                            <img src="./src/img/products/product2/1.jpg" alt="coffee">
-                                            <i class="bi bi-x delete-cart"></i>
-                                        </td>
-                                        <td class="product-name">Cameron's Coffee Flavored Vanilla Hazelnut Ground Coffee</td>
-                                        <td class="product-price">$32.00</td>
-                                        <td class="product-quantity">3</td>
-                                        <td class="product-quantity">$96.00</td>
-                                    </tr>
-                                    <tr class="cart-item">
-                                        <td></td>
-                                        <td class="cart-image">
-                                            <img src="./src/img/products/product2/1.jpg" alt="coffee">
-                                            <i class="bi bi-x delete-cart"></i>
-                                        </td>
-                                        <td class="product-name">Cameron's Coffee Flavored Vanilla Hazelnut Ground Coffee</td>
-                                        <td class="product-price">$32.00</td>
-                                        <td class="product-quantity">3</td>
-                                        <td class="product-quantity">$96.00</td>
-                                    </tr>
-                                    <tr class="cart-item">
-                                        <td></td>
-                                        <td class="cart-image">
-                                            <img src="./src/img/products/product2/1.jpg" alt="coffee">
-                                            <i class="bi bi-x delete-cart"></i>
-                                        </td>
-                                        <td class="product-name">Cameron's Coffee Flavored Vanilla Hazelnut Ground Coffee</td>
-                                        <td class="product-price">$32.00</td>
-                                        <td class="product-quantity">3</td>
-                                        <td class="product-quantity">$96.00</td>
-                                    </tr>
-                                    <tr class="cart-item">
-                                        <td></td>
-                                        <td class="cart-image">
-                                            <img src="./src/img/products/product2/1.jpg" alt="coffee">
-                                            <i class="bi bi-x delete-cart"></i>
-                                        </td>
-                                        <td class="product-name">Cameron's Coffee Flavored Vanilla Hazelnut Ground Coffee</td>
-                                        <td class="product-price">$32.00</td>
-                                        <td class="product-quantity">3</td>
-                                        <td class="product-quantity">$96.00</td>
-                                    </tr>
-                                    <tr class="cart-item">
-                                        <td></td>
-                                        <td class="cart-image">
-                                            <img src="./src/img/products/product2/1.jpg" alt="coffee">
-                                            <i class="bi bi-x delete-cart"></i>
-                                        </td>
-                                        <td class="product-name">Cameron's Coffee Flavored Vanilla Hazelnut Ground Coffee</td>
-                                        <td class="product-price">$32.00</td>
-                                        <td class="product-quantity">3</td>
-                                        <td class="product-quantity">$96.00</td>
-                                    </tr>
-                                    <tr class="cart-item">
-                                        <td></td>
-                                        <td class="cart-image">
-                                            <img src="./src/img/products/product2/1.jpg" alt="coffee">
-                                            <i class="bi bi-x delete-cart"></i>
-                                        </td>
-                                        <td class="product-name">Cameron's Coffee Flavored Vanilla Hazelnut Ground Coffee</td>
-                                        <td class="product-price">$32.00</td>
-                                        <td class="product-quantity">3</td>
-                                        <td class="product-quantity">$96.00</td>
-                                    </tr>
-                                    <tr class="cart-item">
-                                        <td></td>
-                                        <td class="cart-image">
-                                            <img src="./src/img/products/product2/1.jpg" alt="coffee">
-                                            <i class="bi bi-x delete-cart"></i>
-                                        </td>
-                                        <td class="product-name">Cameron's Coffee Flavored Vanilla Hazelnut Ground Coffee</td>
-                                        <td class="product-price">$32.00</td>
-                                        <td class="product-quantity">3</td>
-                                        <td class="product-quantity">$96.00</td>
-                                    </tr>
-                                    <tr class="cart-item">
-                                        <td></td>
-                                        <td class="cart-image">
-                                            <img src="./src/img/products/product2/1.jpg" alt="coffee">
-                                            <i class="bi bi-x delete-cart"></i>
-                                        </td>
-                                        <td class="product-name">Cameron's Coffee Flavored Vanilla Hazelnut Ground Coffee</td>
-                                        <td class="product-price">$32.00</td>
-                                        <td class="product-quantity">3</td>
-                                        <td class="product-quantity">$96.00</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-                            <div class="coupon-wrapper">
-                                <div class="coupon">
-                                    <input type="text" placeholder="Coupon Code">
-                                    <button class="btn btn-primary">Apply Coupon</button>
+                            <div>
+                                <label for="password-login">Password <span class="required">*</span></label>
+                                <input type="password" id="password-login">
+                            </div>
+                            <div class="action-wrapper">
+                                <div class="remember-me">
+                                    <input type="checkbox" id="remember-me">
+                                    <label for="remember-me">Remember Me</label>
                                 </div>
-                                <div class="update-cart">
-                                    <button class="btn btn-primary">Update Cart</button>
+                                <button class="btn btn-primary form-button">Login</button>
+                                <a href="#" class="forgot-password">Forgot password?</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="account-column">
+                        <h2 class="account-title">Register</h2>
+                        <form class="account-form">
+                            <div>
+                                <label for="username">Username <span class="required">*</span></label>
+                                <input type="text" id="username" required>
+                            </div>
+                            <div>
+                                <label for="email-register">Email Address <span class="required">*</span></label>
+                                <input type="email" id="email-register" required>
+                            </div>
+                            <div>
+                                <label for="password-register">Password <span class="required">*</span></label>
+                                <input type="password" id="password-register" required>
+                            </div>
+                            <div class="action-wrapper">
+                                <div class="accept-policy">
+                                    <input type="checkbox" id="policy">
+                                    <label for="policy">
+                                        Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in <a href="#">our privacy policy</a>.
+                                    </label>
                                 </div>
+                                <button class="btn btn-primary form-button">Register</button>
                             </div>
-                        </div>
-                    </form>
-
-                    <div class="cart-collaterals">
-                        <div class="cart-totals">
-                            <h2>Cart Total</h2>
-                            <table>
-                                <tbody>
-                                    <tr class="cart-subtotal">
-                                        <th>Subtotal</th>
-                                        <td>
-                                            <span class="subtotal">$325.00</span>
-                                        </td>
-                                    </tr>
-                                    <tr class="cart-shipping">
-                                        <th>Shipping</th>
-                                        <td>
-                                            <ul class="cart-shipping-list">
-                                                <li class="cart-shipping-item fast-cargo-list--item">
-                                                    <label for="fast-cargo">Fast Cargo: $12.00</label>
-                                                    <input type="checkbox" id="fast-cargo">
-                                                </li>
-                                                <li class="cart-shipping-item">
-                                                    <button class="change-address">Chnage Adress / Add Address</button>
-                                                </li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                    <tr class="cart-total-row">
-                                        <th>Total</th>
-                                        <td class="cart-total">$325.00</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <div class="cart-checkout">
-                                <button class="btn btn-primary">Procces to Checkout</button>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
-        <!--? Cart END  -->
+        <!--? Account END  -->
+
+
+        <!--? Our Shop START  -->
+        <section class="our-shop">
+            <h2 class="section-title">Our Shop</h2>
+            <div class="our-shop-row">
+                <div class="our-shop-column">
+                    <div class="col-1">
+                        <img src="./src/img/info/1.jpg" alt="shop">
+                    </div>
+                </div>
+                <div class="our-shop-column">
+                    <div class="col-2">
+                        <h3 class="our-shop-header">If you wish, you can come to our shop</h3>
+                        <p class="our-shop-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui odio placeat hic unde omnis suscipit doloribus cum labore id rem, nemo molestiae nostrum voluptas illo asperiores.</p>
+                        <a href="./contact.html" class="btn btn-lg">
+                            Contact
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--? Our Shop END  -->
+
+        <!--? Image Gallery START  -->
+        <section class="image-gallery">
+            <h2 class="section-title">Gallery From Our Shop</h2>
+            <div class="container">
+                <div class="gallery-wrapper">
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/1.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/2.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/3.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/4.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/5.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/6.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/7.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/8.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/9.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/10.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/11.jpg" alt="">
+                    </button>
+                    <button class="img-open-btn">
+                        <img src="./src/img/img-gallery/12.jpg" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="full-image">
+                <img src="./src/img/img-gallery/1.jpg" alt="coffee">
+                <button class="close-gallery-btn">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
+        </section>
+        <!--? Image Gallery END  -->
 
         <!--? Policy START  -->
         <section class="policy">

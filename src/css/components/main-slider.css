@@ -10,6 +10,20 @@
     color: #000;
 }
 
+.main-slider .slider-item.fade {
+    animation: fade-animation 1.5s;
+}
+
+@keyframes fade-animation {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+
 .main-slider .slider-item:nth-child(2) {
     color: #fff;
 }
