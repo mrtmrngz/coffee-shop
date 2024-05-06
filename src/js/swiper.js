@@ -8,7 +8,7 @@ function ourProductsSlider() {
         spaceBetween: 10,
         grabCursor: true,
         draggable: true,
-        loop: true,
+        // loop: true,
         navigation: {
             nextEl: '.our-products-next-btn',
             prevEl: '.our-products-prev-btn'
@@ -42,7 +42,7 @@ function bestSellingsSlider() {
         spaceBetween: 10,
         grabCursor: true,
         draggable: true,
-        loop: true,
+        // loop: true,
         navigation: {
             nextEl: '.best-selling-next-btn',
             prevEl: '.best-selling-prev-btn'

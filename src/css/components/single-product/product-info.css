@@ -73,6 +73,16 @@
     width: 75%;
 }
 
+.single-product  .product-info .cart-button button.no-stock {
+    opacity: 0.7;
+    cursor: no-drop;
+}
+
+.single-product  .product-info .cart-button button:disabled {
+    opacity: 0.7;
+    cursor: no-drop;
+}
+
 .single-product .product-info .button-extra a {
     display: flex;
     align-items: center;

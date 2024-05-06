@@ -112,6 +112,21 @@
     border-radius: 12px;
 }
 
+.products-wrapper .product-item .add-to-cart.no-stock {
+    opacity: 0.7;
+    cursor: no-drop;
+    background-color: var(--primary-color);
+    color: #fff;
+    pointer-events: none;
+}
+
+.products-wrapper .product-item .add-to-cart:disabled {
+    opacity: 0.7;
+    cursor: no-drop;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
 .home-page-products .home-page-slider-navigation button {
     position: absolute;
     width: 50px;

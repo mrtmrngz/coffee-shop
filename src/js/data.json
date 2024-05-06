@@ -3,14 +3,16 @@
         "id": 1,
         "name": "McCafe Premium Roast Medium Coffee K-Cup Pods",
         "price": {
-            "oldPrice": 34.29,
+            "oldPrice": 34.00,
             "newPrice": 29.98
         },
         "images": {
             "img1": "./src/img/products/product1/1.jpg",
             "img2": "./src/img/products/product1/2.jpg",
             "img3": "./src/img/products/product1/3.jpg"
-        }
+        },
+        "stock": true,
+        "review": 5 
     },
     {
         "id": 2,
@@ -23,7 +25,9 @@
             "img1": "./src/img/products/product2/1.jpg",
             "img2": "./src/img/products/product2/2.jpg",
             "img3": "./src/img/products/product2/3.jpg"
-        }
+        },
+        "stock": false,
+        "review": 2
     },
     {
         "id": 3,
@@ -36,33 +40,40 @@
             "img1": "./src/img/products/product3/1.jpg",
             "img2": "./src/img/products/product3/2.jpg",
             "img3": "./src/img/products/product3/3.jpg"
-        }
+        },
+        "stock": false,
+        "review": 4
     },
     {
         "id": 4,
         "name": "NORDIA Barista No:3 Whole Bean Coffee",
         "price": {
-            "oldPrice": 34.29,
-            "newPrice": 29.98
+            "oldPrice": 17.25,
+            "newPrice": 12.50
         },
         "images": {
             "img1": "./src/img/products/product4/1.jpg",
             "img2": "./src/img/products/product4/2.jpg",
             "img3": "./src/img/products/product4/3.jpg"
-        }
+        },
+        "stock": true,
+        "review": 3.5
     },
     {
         "id": 5,
         "name": "LavAzza Qualita Rossa Whole Bean Coffee",
         "price": {
-            "oldPrice": 34.29,
-            "newPrice": 29.98
+            "oldPrice": 18.00,
+            "newPrice": 14.00
         },
         "images": {
             "img1": "./src/img/products/product5/1.jpg",
             "img2": "./src/img/products/product5/2.jpg",
             "img3": "./src/img/products/product5/3.jpg"
-        }
+        },
+        "stock": true,
+        "review": 4.5
+        
     },
     {
         "id": 6,
@@ -75,7 +86,9 @@
             "img1": "./src/img/products/product6/1.jpg",
             "img2": "./src/img/products/product6/2.jpg",
             "img3": "./src/img/products/product6/3.jpg"
-        }
+        },
+        "stock": true,
+        "review": 4
     },
     {
         "id": 7,
@@ -88,6 +101,8 @@
             "img1": "./src/img/products/product7/1.jpg",
             "img2": "./src/img/products/product7/2.jpg",
             "img3": "./src/img/products/product7/3.jpg"
-        }
+        },
+        "stock": false,
+        "review": 2.5
     }
 ]

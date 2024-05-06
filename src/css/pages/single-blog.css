@@ -53,3 +53,11 @@
     color: var(--gray-color);
     border-left: 2px solid var(--gray-color);
 }
+
+
+@media screen and (max-width:450px) {
+    .single-blog article .blog-wrapper .blog-meta{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+}
