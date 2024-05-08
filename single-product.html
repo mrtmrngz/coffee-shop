@@ -199,7 +199,7 @@
                             <ul class="breadcrumb-list">
                                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
                                 <li class="breadcrumb-item"><a href="./shop.html">Products</a></li>
-                                <li class="breadcrumb-item"><a href="./index.html">McCafe Premium Roast Medium Coffee</a></li>
+                                <li class="breadcrumb-item"><a class="product-name" href="#">McCafe Premium Roast Medium Coffee</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -208,7 +208,7 @@
                     <!--! Single Content START  -->
                     <div class="single-content">
                         <div class="single-content-wrapper">
-                            <div class="product-gallery">
+                            <!-- <div class="product-gallery">
                                 <div class="single-image-wrapper">
                                     <img src="./src/img/products/product1/1.jpg" alt="coffee">
                                 </div>
@@ -262,7 +262,7 @@
                                         <span>Share This Product</span>
                                     </a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <!--! Single Content END  -->
@@ -275,7 +275,7 @@
                         </ul>
 
                         <div class="tab-panel">
-                            <div class="tab-panel-desc content">
+                            <div class="tab-panel-desc content active" id="desc">
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque sed nesciunt dicta amet in vel, temporibus labore, illo illum voluptates deleniti veniam similique fugiat dignissimos rem a. Excepturi, fuga maiores!
                                 </p>
@@ -292,11 +292,13 @@
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut iure amet eligendi commodi sit corrupti est nam placeat suscipit nihil voluptate minus repellendus iusto sequi, voluptatem provident nobis earum quibusdam illo beatae voluptates eveniet at? Vitae repellendus ipsum nulla ab deleniti excepturi architecto error temporibus, deserunt, ratione eligendi fugiat consequatur.
                                 </p>
                             </div>
-                            <div class="tab-panel-reviews content">
+                            <div class="tab-panel-reviews content" id="reviews">
                                 <h3>2 Reviews for McCafe Premium Roast Medium Coffee</h3>
+
                                 <div class="comments">
                                     <ul class="comment-list">
-                                        <li class="comment-item">
+
+                                        <!-- <li class="comment-item">
                                             <div class="comment-avatar">
                                                 <img src="./src/img/avatar/person.jpg">
                                             </div>
@@ -319,33 +321,11 @@
                                                     </p>
                                                 </div>
                                             </div>
-                                        </li>
-                                        <li class="comment-item">
-                                            <div class="comment-avatar">
-                                                <img src="./src/img/avatar/person.jpg">
-                                            </div>
-                                            <div class="comment-text">
-                                                <ul class="commnet-heart">
-                                                    <li><i class="bi bi-heart-fill"></i></li>
-                                                    <li><i class="bi bi-heart-fill"></i></li>
-                                                    <li><i class="bi bi-heart-fill"></i></li>
-                                                    <li><i class="bi bi-heart-half"></i></li>
-                                                    <li><i class="bi bi-heart"></i></li>
-                                                </ul>
-                                                <div class="comment-meta">
-                                                    <strong>admin</strong>
-                                                    <span>-</span>
-                                                    <time>May 3, 2024</time>
-                                                </div>
-                                                <div class="comment-description">
-                                                    <p>
-                                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores nesciunt eos aperiam numquam, voluptatibus harum!
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
+                                        </li> -->
+                                        
                                     </ul>
                                 </div>
+
                                 <div class="comment-form-wrapper">
                                     <h2>Add Review</h2>
                                     <form class="comment-form">
@@ -382,14 +362,14 @@
                                         </div>
                                         <div class="comment-form-comment form-comment">
                                             <label for="comment">Your Comment <span class="required">*</span></label>
-                                            <textarea id="comment" cols="50" rows="10"></textarea>
+                                            <textarea class="comment-textarea" id="comment" cols="50" rows="10"></textarea>
                                         </div>
                                         <div class="comment-form-author form-comment">
                                             <label for="name">Your Name <span class="required">*</span></label>
-                                            <input type="text" id="name">
+                                            <input class="comment-name" type="text" id="name">
                                         </div>
                                         <div class="comment-form-email form-comment">
-                                            <label for="name">Your Name <span class="required">*</span></label>
+                                            <label for="name">Your Email <span class="required">*</span></label>
                                             <input type="email" id="name">
                                         </div>
                                         <div class="comment-from-cookies">
@@ -397,7 +377,7 @@
                                             <label for="cookies">Save my name, email, and website in this browser for the next time I comment. <span class="required">*</span></label>
                                         </div>
                                         <div class="form-submit">
-                                            <input type="submit" value="Submit" class="btn btn-primary btn-lg">
+                                            <input type="submit" value="Submit" class="add-comment-btn btn btn-primary btn-lg">
                                         </div>
                                     </form>
                                 </div>                               
@@ -715,6 +695,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./src/js/swiper.js"></script>
+    <script src="./src/js/single-products.js" type="module"></script>
     <script src="./src/js/app.js" type="module"></script>
 </body>
 </html>

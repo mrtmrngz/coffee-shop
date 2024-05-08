@@ -151,43 +151,43 @@
 
 @media screen and (max-width:640px) {
     .modal-search .search-results .results {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr) !important;
     }
 
     .modal-search .search-results .results .search-info {
-        align-items: center;
-        width: 100%;
+        align-items: center !important;
+        width: 100% !important;
     }
 }
 
 @media screen and (max-width:390px) {
     .modal-search .modal-wrapper {
-        max-width: 650px;
-        padding: 25px 20px;
+        max-width: 650px !important;
+        padding: 25px 20px !important;
     }
 
     .modal-search .modal-wrapper .search-title {
-        font-size: 20px;
+        font-size: 20px !important;
     }
 
     .modal-search .modal-wrapper .search-text {
-        font-size: 12px;
+        font-size: 12px !important;
     }
 
     .modal-search .search-form #search-input {
-        padding: 4px 8px;
-        font-size: 14px;
+        padding: 4px 8px !important;
+        font-size: 14px !important;
     }
 
     .modal-search .search-form .search-button {
-        position: absolute;
-        right: 10px;
-        font-size: 14px;
-        top: 12%;
+        position: absolute !important;
+        right: 10px !important;
+        font-size: 14px !important;
+        top: 12% !important;
     }
 
     .modal-search .search-results .results {
-        max-height: 295px;
+        max-height: 295px !important;
     }
 
     .modal-search .search-results .results .search-img {
@@ -209,14 +209,14 @@
 
 @media screen and (max-width:340px) {
     .modal-search .search-results .results {
-        max-height: 150px;
+        max-height: 150px !important;
     }
 }
 
 @media screen and (max-width:275px) {
     .modal-search .modal-wrapper {
-        max-width: 450px;
-        padding: 25px 10px;
+        max-width: 450px !important;
+        padding: 25px 10px !important;
     }
 
     .modal-search .search-results .results .search-img {

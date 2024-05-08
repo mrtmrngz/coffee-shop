@@ -1,5 +1,7 @@
 import header from "./header.js"
 import productFunc from "./products.js"
+import imageGallery from "./image-gallery.js"
+import searchFunc from "./search.js"
 
 
 
@@ -7,7 +9,10 @@ import productFunc from "./products.js"
 (async function() {
     const productsData = await fetch('../../src/js/data.json')
     const data = await productsData.json()
+
+    data ? localStorage.setItem('products', JSON.stringify(data)) : []
     productFunc(data)
+    searchFunc(data)
 })()
 
 

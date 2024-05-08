@@ -1,5 +1,7 @@
 const ourProductsSliderDOM = document.querySelector('.home-page-product-slider-1')
+const ourProductsSliderListDOM = document.querySelector('.our-product-list')
 const bestSellingsSliderDOM = document.querySelector('.home-page-product-slider-2')
+const bestSellingsListDOM = document.querySelector('.best-sellings-list')
 
 
 function ourProductsSlider() {
@@ -34,7 +36,7 @@ function ourProductsSlider() {
     })
 }
 
-ourProductsSliderDOM && ourProductsSlider()
+ourProductsSliderListDOM && ourProductsSlider()
 
 function bestSellingsSlider() {
     new Swiper('.home-page-product-slider-2', {
@@ -68,4 +70,4 @@ function bestSellingsSlider() {
     })
 }
 
-bestSellingsSliderDOM && bestSellingsSlider()
+bestSellingsListDOM && bestSellingsSlider()

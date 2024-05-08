@@ -31,6 +31,18 @@ function productFunc(products) {
             }
         })
     }
+
+    function productRoute() {
+        const productLinks = document.querySelectorAll('.product-link')
+        productLinks.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault()
+                const id = btn.dataset.id
+                localStorage.setItem('productId', JSON.stringify(id))
+                window.location.href = "single-product.html"
+            })
+        })
+    }
     
 
     function displayProducts() {
@@ -120,8 +132,8 @@ function productFunc(products) {
             }
 
             result += `
-                <li class="product-item ${ourProductsListDOM && bestSellingsListDOM ? "swiper-slide" : ""}">
-                    <a href="#" class="product-link">
+                <li class="product-item ${ourProductsListDOM || bestSellingsListDOM ? "swiper-slide" : ""}">
+                    <a href="#" class="product-link" data-id=${product.id}>
                         <div class="product-image">
                             <img src="${product.images.img1}" alt="coffee">
                         </div>
@@ -151,6 +163,7 @@ function productFunc(products) {
         shopPageProductsDOM ? shopPageProductsListDom.innerHTML = result : ""
 
         addToCart()
+        productRoute()
     }
 
     displayProducts()

@@ -1,0 +1,1 @@
+import comment from "./comment.js";
